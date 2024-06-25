@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+.text-center:hover{
+    color: rgb(55, 125, 255);
+    cursor: pointer;
+}
+
 
 .style{
     padding: 80px;
