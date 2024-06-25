@@ -44,5 +44,11 @@ let prezzoScontato = (costoIniziale * sconto) / 100;
 console.log(prezzoScontato);
 
 
+// CALCOLO DEL PREZZO FINALE
+
+let prezzoFinale = costoIniziale - prezzoScontato;
+console.log(prezzoFinale);
+
+
 
 
