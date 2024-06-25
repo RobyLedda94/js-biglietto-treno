@@ -50,5 +50,11 @@ let prezzoFinale = costoIniziale - prezzoScontato;
 console.log(prezzoFinale);
 
 
+// OUTPUT DEL PREZZO FINALE IN CARATTERI DECIMALI
+
+prezzoFinale = prezzoFinale.toFixed(2);
+console.log(prezzoFinale);
+
+
 
 
