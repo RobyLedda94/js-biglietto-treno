@@ -14,3 +14,9 @@ let eta = parseInt(prompt('Quanti anni hai?'))
 console.log(eta)
 
 
+// COSTO DEL BIGLIETTO PER KM
+
+let costo = 0.21;
+console.log(costo)
+
+
