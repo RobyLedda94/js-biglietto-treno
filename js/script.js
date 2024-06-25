@@ -2,6 +2,10 @@
 alert("Javascript calcolo biglietto treno");
 
 
+
+document.getElementById('tiket').innerHTML ='<strong>Calcoliamo il costo di un biglietto per il treno</strong>';
+
+
 // CHIEDIAMO AL CLIENTE QUANTI KILOMETRI DEVE PERCORRERE
 
 let distanza = parseInt(prompt('Quanti km devi percorrere'));
