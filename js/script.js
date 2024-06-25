@@ -21,8 +21,8 @@ console.log(costo)
 
 // CALCOLO COSTO DEL BIGLIETTO
 
-let costoFinale = distanza * costo;
-console.log(costoFinale)
+let costoIniziale = distanza * costo;
+console.log(costoIniziale)
 
 
 // APPLICAZIONE SCONTO IN BASE ALL'ETA'
@@ -30,9 +30,13 @@ console.log(costoFinale)
 let sconto = 0;
 
 if (eta < 18){
-    sconto = 20;
+    sconto = costo - ((costo * 20)/100);
 
-    
+
 } else if (eta > 65){
-    sconto = 40;
+    sconto = costo - ((costo * 40)/100);
 }
+
+
+
+
