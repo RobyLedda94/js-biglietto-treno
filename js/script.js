@@ -19,4 +19,9 @@ console.log(eta)
 let costo = 0.21;
 console.log(costo)
 
+// CALCOLO COSTO DEL BIGLIETTO
+
+let costoFinale = distanza * costo;
+console.log(costoFinale)
+
 

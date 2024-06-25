@@ -19,9 +19,11 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 3 - Variabile prezzo al km
 
-4 - Creo condizione di sconto variabile in base all'età del cliente e al prezzo:
-    4.1 - ?minorenne 20% di sconto
-    4.2 - ?over 65 40% di sconto
+4 - Calcolo del prezzo
+
+5- Creo condizione di sconto variabile in base all'età del cliente e al prezzo:
+    5.1 - ?minorenne 20% di sconto
+    5.2 - ?over 65 40% di sconto
 
 5 - output del prezzo finale in caratteri decimali 
 
